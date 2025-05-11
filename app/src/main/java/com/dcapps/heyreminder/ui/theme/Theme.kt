@@ -1,7 +1,7 @@
 package com.dcapps.heyreminder.ui.theme
 
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.lightColorScheme
+import androidx.compose.material3.darkColorScheme
 import androidx.compose.material3.Typography
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.res.colorResource
@@ -52,7 +52,7 @@ fun ReminderAppTheme(content: @Composable () -> Unit) {
     val onBackground  = colorResource(R.color.text_color)
     val surface       = background
     val onSurface     = onBackground
-    val colors = lightColorScheme(
+    val colors = darkColorScheme(
         primary = primary,
         onPrimary = onPrimary,
         background = background,

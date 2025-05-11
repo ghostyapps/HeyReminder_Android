@@ -56,7 +56,7 @@ fun MainScreen() {
                 contentAlignment = Alignment.BottomStart
             ) {
                 // Adjust header font size for small screens
-                val headerFontSize = if (maxWidth < 360.dp) 24.sp else 42.sp
+                val headerFontSize = if (maxWidth < 420.dp) 28.sp else 42.sp
                 val count = reminders.size
                 Text(
                     text = "Hey 👋\nYou have $count reminders.",
@@ -114,13 +114,15 @@ fun MainScreen() {
             }
 
             // ALT BUTON (1/4 ekranın alt kısmı)
-            Box(
+            BoxWithConstraints(
                 modifier = Modifier
                     .fillMaxWidth()
                     .weight(1f)
                     .padding(16.dp),
                 contentAlignment = Alignment.TopCenter
             ) {
+                // Adjust button text size for small screens
+                val buttonFontSize = if (maxWidth < 360.dp) 16.sp else 24.sp
                 Button(
                     onClick = { showCreate = true },
                     colors = ButtonDefaults.buttonColors(containerColor = accentGreen),
@@ -131,7 +133,7 @@ fun MainScreen() {
                     Text(
                         text = "New Reminder",
                         color = textColor,
-                        fontSize = 24.sp,
+                        fontSize = buttonFontSize,
                         fontWeight = FontWeight.Bold
                     )
                 }

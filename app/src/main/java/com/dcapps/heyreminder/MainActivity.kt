@@ -19,16 +19,22 @@ import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
+import androidx.core.view.WindowInsetsControllerCompat
+
+import androidx.appcompat.app.AppCompatDelegate
+import androidx.appcompat.app.AppCompatActivity
 
 
 
-class MainActivity : ComponentActivity() {
+class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         installSplashScreen()
+        AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES)
         super.onCreate(savedInstanceState)
         // Make system bars match our light-gray background
         window.statusBarColor     = ContextCompat.getColor(this, R.color.accent_color)
         window.navigationBarColor = ContextCompat.getColor(this, R.color.accent_color)
+        WindowInsetsControllerCompat(window, window.decorView).isAppearanceLightStatusBars = false
 
         // (1) Exact alarm izni isteme kodu…
 
