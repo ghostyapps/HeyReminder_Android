@@ -1,0 +1,146 @@
+[
+    {
+        "merged": "com.dcapps.heyreminder.app-release-66:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.dcapps.heyreminder.app-main-67:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.dcapps.heyreminder.app-release-66:/font_productsans_black.ttf.flat",
+        "source": "com.dcapps.heyreminder.app-main-67:/font/productsans_black.ttf"
+    },
+    {
+        "merged": "com.dcapps.heyreminder.app-release-66:/drawable_ic_notification.xml.flat",
+        "source": "com.dcapps.heyreminder.app-main-67:/drawable/ic_notification.xml"
+    },
+    {
+        "merged": "com.dcapps.heyreminder.app-release-66:/mipmap-hdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.dcapps.heyreminder.app-main-67:/mipmap-hdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.dcapps.heyreminder.app-release-66:/font_futuru_extrabold.ttf.flat",
+        "source": "com.dcapps.heyreminder.app-main-67:/font/futuru_extrabold.ttf"
+    },
+    {
+        "merged": "com.dcapps.heyreminder.app-release-66:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.dcapps.heyreminder.app-main-67:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.dcapps.heyreminder.app-release-66:/drawable-hdpi_ic_reminder.png.flat",
+        "source": "com.dcapps.heyreminder.app-main-67:/drawable-hdpi/ic_reminder.png"
+    },
+    {
+        "merged": "com.dcapps.heyreminder.app-release-66:/drawable_hey_notif.png.flat",
+        "source": "com.dcapps.heyreminder.app-main-67:/drawable/hey_notif.png"
+    },
+    {
+        "merged": "com.dcapps.heyreminder.app-release-66:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.dcapps.heyreminder.app-main-67:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.dcapps.heyreminder.app-release-66:/font_grift_bold.ttf.flat",
+        "source": "com.dcapps.heyreminder.app-main-67:/font/grift_bold.ttf"
+    },
+    {
+        "merged": "com.dcapps.heyreminder.app-release-66:/font_productsans_medium.ttf.flat",
+        "source": "com.dcapps.heyreminder.app-main-67:/font/productsans_medium.ttf"
+    },
+    {
+        "merged": "com.dcapps.heyreminder.app-release-66:/font_futuru_semibold.ttf.flat",
+        "source": "com.dcapps.heyreminder.app-main-67:/font/futuru_semibold.ttf"
+    },
+    {
+        "merged": "com.dcapps.heyreminder.app-release-66:/drawable_splash_background.xml.flat",
+        "source": "com.dcapps.heyreminder.app-main-67:/drawable/splash_background.xml"
+    },
+    {
+        "merged": "com.dcapps.heyreminder.app-release-66:/drawable-mdpi_ic_reminder.png.flat",
+        "source": "com.dcapps.heyreminder.app-main-67:/drawable-mdpi/ic_reminder.png"
+    },
+    {
+        "merged": "com.dcapps.heyreminder.app-release-66:/font_futuru_medium.ttf.flat",
+        "source": "com.dcapps.heyreminder.app-main-67:/font/futuru_medium.ttf"
+    },
+    {
+        "merged": "com.dcapps.heyreminder.app-release-66:/mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.dcapps.heyreminder.app-main-67:/mipmap-xxhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.dcapps.heyreminder.app-release-66:/mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.dcapps.heyreminder.app-main-67:/mipmap-xxxhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.dcapps.heyreminder.app-release-66:/drawable-xhdpi_ic_reminder.png.flat",
+        "source": "com.dcapps.heyreminder.app-main-67:/drawable-xhdpi/ic_reminder.png"
+    },
+    {
+        "merged": "com.dcapps.heyreminder.app-release-66:/font_productsans_bold.ttf.flat",
+        "source": "com.dcapps.heyreminder.app-main-67:/font/productsans_bold.ttf"
+    },
+    {
+        "merged": "com.dcapps.heyreminder.app-release-66:/font_grift_black.ttf.flat",
+        "source": "com.dcapps.heyreminder.app-main-67:/font/grift_black.ttf"
+    },
+    {
+        "merged": "com.dcapps.heyreminder.app-release-66:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.dcapps.heyreminder.app-main-67:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.dcapps.heyreminder.app-release-66:/drawable-xxxhdpi_ic_reminder.png.flat",
+        "source": "com.dcapps.heyreminder.app-main-67:/drawable-xxxhdpi/ic_reminder.png"
+    },
+    {
+        "merged": "com.dcapps.heyreminder.app-release-66:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.dcapps.heyreminder.app-main-67:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.dcapps.heyreminder.app-release-66:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.dcapps.heyreminder.app-main-67:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.dcapps.heyreminder.app-release-66:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.dcapps.heyreminder.app-main-67:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.dcapps.heyreminder.app-release-66:/font_grift_medium.ttf.flat",
+        "source": "com.dcapps.heyreminder.app-main-67:/font/grift_medium.ttf"
+    },
+    {
+        "merged": "com.dcapps.heyreminder.app-release-66:/drawable-xxhdpi_ic_reminder.png.flat",
+        "source": "com.dcapps.heyreminder.app-main-67:/drawable-xxhdpi/ic_reminder.png"
+    },
+    {
+        "merged": "com.dcapps.heyreminder.app-release-66:/drawable_hey_logo_padded.png.flat",
+        "source": "com.dcapps.heyreminder.app-main-67:/drawable/hey_logo_padded.png"
+    },
+    {
+        "merged": "com.dcapps.heyreminder.app-release-66:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.dcapps.heyreminder.app-main-67:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.dcapps.heyreminder.app-release-66:/mipmap-mdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.dcapps.heyreminder.app-main-67:/mipmap-mdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.dcapps.heyreminder.app-release-66:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.dcapps.heyreminder.app-main-67:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.dcapps.heyreminder.app-release-66:/mipmap-xhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.dcapps.heyreminder.app-main-67:/mipmap-xhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.dcapps.heyreminder.app-release-66:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.dcapps.heyreminder.app-main-67:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.dcapps.heyreminder.app-release-66:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.dcapps.heyreminder.app-main-67:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.dcapps.heyreminder.app-release-66:/drawable_hey_logo.png.flat",
+        "source": "com.dcapps.heyreminder.app-main-67:/drawable/hey_logo.png"
+    },
+    {
+        "merged": "com.dcapps.heyreminder.app-release-66:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.dcapps.heyreminder.app-main-67:/mipmap-xxhdpi/ic_launcher_round.webp"
+    }
+]

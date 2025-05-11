@@ -1,0 +1,27 @@
+R_DEF: Internal format may change without notice
+local
+color accent_color
+color ic_launcher_background
+color light_accent
+color text_color
+color white_background
+drawable hey_logo
+drawable hey_logo_padded
+drawable hey_notif
+drawable ic_notification
+drawable ic_reminder
+drawable splash_background
+font futuru_extrabold
+font futuru_medium
+font futuru_semibold
+font grift_black
+font grift_bold
+font grift_medium
+font productsans_black
+font productsans_bold
+font productsans_medium
+mipmap ic_launcher
+mipmap ic_launcher_foreground
+mipmap ic_launcher_round
+style Theme.ReminderApp
+style Theme.ReminderApp.Splash
