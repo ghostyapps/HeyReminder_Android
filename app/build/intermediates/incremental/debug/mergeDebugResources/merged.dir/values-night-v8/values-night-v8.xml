@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="accent_color">#161616</color>
+    <color name="light_accent">#353535</color>
+    <color name="text_color">#D3D3D3</color>
+    <color name="white_background">#0F0F0F</color>
     <style name="Base.Theme.SplashScreen.DayNight" parent="Base.Theme.SplashScreen"/>
     <style name="Theme.AppCompat.DayNight" parent="Theme.AppCompat"/>
     <style name="Theme.AppCompat.DayNight.DarkActionBar" parent="Theme.AppCompat"/>
@@ -34,7 +38,17 @@
     <style name="Theme.MaterialComponents.DayNight.NoActionBar" parent="Theme.MaterialComponents.NoActionBar"/>
     <style name="Theme.MaterialComponents.DayNight.NoActionBar.Bridge" parent="Theme.MaterialComponents.NoActionBar.Bridge"/>
     <style name="Theme.ReminderApp" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        <item name="android:statusBarColor">@color/white_background</item>
+        <item name="android:navigationBarColor">@color/white_background</item>
+        
 
+        
+    </style>
+    <style name="Theme.ReminderApp.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/white_background</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/heyreminder_splash_dark</item>
+        <item name="postSplashScreenTheme">@style/Theme.ReminderApp</item>
     </style>
     <style name="ThemeOverlay.AppCompat.DayNight" parent="ThemeOverlay.AppCompat.Dark"/>
     <style name="ThemeOverlay.Material3.DynamicColors.DayNight" parent="ThemeOverlay.Material3.DynamicColors.Dark"/>
