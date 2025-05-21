@@ -2874,6 +2874,9 @@ drawable design_snackbar_background
 drawable hey_logo
 drawable hey_logo_padded
 drawable hey_notif
+drawable heyreminder_splash
+drawable heyreminder_splash_dark
+drawable heyreminder_splash_light
 drawable ic_arrow_back_black_24
 drawable ic_call_answer
 drawable ic_call_answer_low
@@ -2883,6 +2886,7 @@ drawable ic_call_decline
 drawable ic_call_decline_low
 drawable ic_clear_black_24
 drawable ic_clock_black_24dp
+drawable ic_hey_hand
 drawable ic_keyboard_black_24dp
 drawable ic_m3_chip_check
 drawable ic_m3_chip_checked_circle
@@ -2891,7 +2895,6 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
-drawable ic_notification
 drawable ic_reminder
 drawable ic_search_black_24
 drawable icon_background

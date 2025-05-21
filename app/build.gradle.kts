@@ -4,6 +4,7 @@ plugins {
     kotlin("android")
 }
 
+
 android {
     namespace = "com.dcapps.heyreminder"
     compileSdk = 34
@@ -45,8 +46,11 @@ dependencies {
     implementation("androidx.compose.material:material-icons-extended:1.5.0")
     // Material3 Date & Time Pickers
     implementation("com.marosseleng.android:compose-material3-datetime-pickers:0.7.2")
-    implementation ("androidx.core:core-splashscreen:1.0.1")
+    implementation("androidx.core:core-splashscreen:1.0.1")
     implementation("androidx.appcompat:appcompat:1.6.1")
+    implementation("com.google.code.gson:gson:2.10.1")
+    implementation("androidx.compose.material:material:1.5.4")
+
 
 }
 

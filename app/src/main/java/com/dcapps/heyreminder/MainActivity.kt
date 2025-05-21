@@ -1,4 +1,5 @@
 package com.dcapps.heyreminder
+import com.dcapps.heyreminder.data.ReminderScheduler
 import android.app.AlarmManager
 import android.content.Context
 import android.content.Intent
@@ -23,18 +24,24 @@ import androidx.core.view.WindowInsetsControllerCompat
 
 import androidx.appcompat.app.AppCompatDelegate
 import androidx.appcompat.app.AppCompatActivity
+import com.dcapps.heyreminder.data.ReminderRepository
 
+import android.content.res.Configuration
+
+
+import android.graphics.Color
 
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         installSplashScreen()
-        AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES)
+
         super.onCreate(savedInstanceState)
         // Make system bars match our light-gray background
         window.statusBarColor     = ContextCompat.getColor(this, R.color.accent_color)
-        window.navigationBarColor = ContextCompat.getColor(this, R.color.accent_color)
-        WindowInsetsControllerCompat(window, window.decorView).isAppearanceLightStatusBars = false
+        window.navigationBarColor = ContextCompat.getColor(this, R.color.white_background)
+        val isDarkTheme = (resources.configuration.uiMode and Configuration.UI_MODE_NIGHT_MASK) == Configuration.UI_MODE_NIGHT_YES
+        WindowInsetsControllerCompat(window, window.decorView).isAppearanceLightStatusBars = !isDarkTheme
 
         // (1) Exact alarm izni isteme kodu…
 
@@ -50,6 +57,17 @@ class MainActivity : AppCompatActivity() {
                     1001
                 )
             }
+        }
+
+
+        // SharedPreferences tabanlı hatırlatıcı deposunu başlat
+        ReminderRepository.init(applicationContext)
+
+        // Reschedule all reminders on app start
+        val context = applicationContext
+        val reminders = ReminderRepository.getAllSync()
+        for (reminder in reminders) {
+            ReminderScheduler.schedule(context, reminder)
         }
 
         setContent {

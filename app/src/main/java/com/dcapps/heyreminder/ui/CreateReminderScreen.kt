@@ -19,6 +19,8 @@ import androidx.compose.ui.unit.sp
 import com.dcapps.heyreminder.data.Reminder
 import com.dcapps.heyreminder.data.ReminderRepository
 import com.dcapps.heyreminder.data.ReminderScheduler
+import androidx.compose.runtime.rememberCoroutineScope
+import kotlinx.coroutines.launch
 import java.util.Calendar
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.foundation.clickable
@@ -27,6 +29,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.ui.graphics.Color
 import androidx.compose.foundation.border
+import androidx.activity.compose.BackHandler
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -34,6 +37,9 @@ fun CreateReminderScreen(
     onBack: () -> Unit,
     existing: Reminder? = null
 ) {
+    BackHandler {
+        onBack()
+    }
     val context = LocalContext.current
     val calendarNow = Calendar.getInstance()
 
@@ -54,6 +60,8 @@ fun CreateReminderScreen(
     val accentGreen = colorResource(R.color.accent_color)
     val bgColor = colorResource(R.color.white_background)
     val textColor = colorResource(R.color.text_color)
+
+    val coroutineScope = rememberCoroutineScope()
 
     Column(
         modifier = Modifier
@@ -147,20 +155,22 @@ fun CreateReminderScreen(
         ) {
             Button(
                 onClick = {
-                    val reminder = Reminder(
-                        id = existing?.id ?: 0L,
-                        text = text,
-                        hour = hour,
-                        minute = minute,
-                        days = selectedDays
-                    )
-                    val saved = if (existing != null)
-                        ReminderRepository.updateReminder(reminder)
-                    else
-                        ReminderRepository.addReminder(reminder)
+                    coroutineScope.launch {
+                        val reminder = Reminder(
+                            id = existing?.id ?: 0L,
+                            text = text,
+                            hour = hour,
+                            minute = minute,
+                            days = selectedDays
+                        )
+                        val saved = if (existing != null)
+                            ReminderRepository.updateReminder(reminder)
+                        else
+                            ReminderRepository.addReminder(reminder)
 
-                    ReminderScheduler.schedule(context, saved)
-                    onBack()
+                        ReminderScheduler.schedule(context, saved)
+                        onBack()
+                    }
                 },
                 modifier = Modifier.weight(1f),
                 colors = ButtonDefaults.buttonColors(containerColor = accentGreen)

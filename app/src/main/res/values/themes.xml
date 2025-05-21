@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Application theme -->
-    <style name="Theme.ReminderApp" parent="Theme.Material3.Light.NoActionBar">
+    <style name="Theme.ReminderApp" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Status bar with app background color -->
         <item name="android:statusBarColor">@color/white_background</item>
         <item name="android:navigationBarColor">@color/white_background</item>
         <!-- Use correct attribute name -->
-        <item name="android:windowLightStatusBar">true</item>
-        <item name="android:windowLightNavigationBar">true</item>
+
+
     </style>
 
     <style name="Theme.ReminderApp.Splash" parent="Theme.SplashScreen">
         <item name="windowSplashScreenBackground">@color/white_background</item>
-        <item name="windowSplashScreenAnimatedIcon">@drawable/hey_logo_padded</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/heyreminder_splash_light</item>
         <item name="postSplashScreenTheme">@style/Theme.ReminderApp</item>
     </style>
 

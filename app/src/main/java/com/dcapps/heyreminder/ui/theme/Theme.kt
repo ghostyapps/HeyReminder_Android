@@ -11,6 +11,8 @@ import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
 import com.dcapps.heyreminder.R
+import androidx.compose.foundation.isSystemInDarkTheme
+import androidx.compose.material3.lightColorScheme
 
 // Define your custom fonts in res/font (e.g., my_custom_font_regular.ttf, my_custom_font_medium.ttf, my_custom_font_bold.ttf)
 private val CustomFontFamily = FontFamily(
@@ -51,15 +53,24 @@ fun ReminderAppTheme(content: @Composable () -> Unit) {
     val background    = colorResource(R.color.white_background)
     val onBackground  = colorResource(R.color.text_color)
     val surface       = background
-    val onSurface     = onBackground
-    val colors = darkColorScheme(
-        primary = primary,
-        onPrimary = onPrimary,
-        background = background,
+    val onSurface = onBackground
+    val darkColors = darkColorScheme(
+        primary      = primary,
+        onPrimary    = onPrimary,
+        background   = background,
         onBackground = onBackground,
-        surface = surface,
-        onSurface = onSurface
+        surface      = surface,
+        onSurface    = onSurface
     )
+    val lightColors = lightColorScheme(
+        primary      = primary,
+        onPrimary    = onPrimary,
+        background   = background,
+        onBackground = onBackground,
+        surface      = surface,
+        onSurface    = onSurface
+    )
+    val colors = if (isSystemInDarkTheme()) darkColors else lightColors
     MaterialTheme(
         colorScheme = colors,
         typography = AppTypography,

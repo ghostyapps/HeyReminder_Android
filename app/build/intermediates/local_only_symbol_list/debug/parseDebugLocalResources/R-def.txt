@@ -8,7 +8,10 @@ color white_background
 drawable hey_logo
 drawable hey_logo_padded
 drawable hey_notif
-drawable ic_notification
+drawable heyreminder_splash
+drawable heyreminder_splash_dark
+drawable heyreminder_splash_light
+drawable ic_hey_hand
 drawable ic_reminder
 drawable splash_background
 font futuru_extrabold

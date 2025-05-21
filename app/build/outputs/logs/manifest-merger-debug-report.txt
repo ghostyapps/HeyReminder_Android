@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/dogukancandan/App Development/ReminderApp/app/src/main/AndroidManifest.xml:1:1-27:12
-INJECTED from /Users/dogukancandan/App Development/ReminderApp/app/src/main/AndroidManifest.xml:1:1-27:12
-INJECTED from /Users/dogukancandan/App Development/ReminderApp/app/src/main/AndroidManifest.xml:1:1-27:12
-INJECTED from /Users/dogukancandan/App Development/ReminderApp/app/src/main/AndroidManifest.xml:1:1-27:12
+ADDED from /Users/dogukancandan/App Development/ReminderApp/app/src/main/AndroidManifest.xml:1:1-35:12
+INJECTED from /Users/dogukancandan/App Development/ReminderApp/app/src/main/AndroidManifest.xml:1:1-35:12
+INJECTED from /Users/dogukancandan/App Development/ReminderApp/app/src/main/AndroidManifest.xml:1:1-35:12
+INJECTED from /Users/dogukancandan/App Development/ReminderApp/app/src/main/AndroidManifest.xml:1:1-35:12
 MERGED from [com.google.android.material:material:1.9.0] /Users/dogukancandan/.gradle/caches/8.11.1/transforms/b52c9c57c538e95645db492dec55fd5f/transformed/material-1.9.0/AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/dogukancandan/.gradle/caches/8.11.1/transforms/1ed54ce307f29edf4f72683151899cc0/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/dogukancandan/.gradle/caches/8.11.1/transforms/2d0ce44cd5813b244463bfec9c85614a/transformed/constraintlayout-2.0.1/AndroidManifest.xml:2:1-11:12
@@ -24,10 +24,10 @@ MERGED from [androidx.navigation:navigation-runtime-ktx:2.5.1] /Users/dogukancan
 MERGED from [androidx.navigation:navigation-runtime:2.5.1] /Users/dogukancandan/.gradle/caches/8.11.1/transforms/44fa806ab94a08c2a75f0ee17742c507/transformed/navigation-runtime-2.5.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.activity:activity-ktx:1.8.0] /Users/dogukancandan/.gradle/caches/8.11.1/transforms/5fbc218a89c14eb0af41f8a240009c5c/transformed/jetified-activity-ktx-1.8.0/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.activity:activity:1.8.0] /Users/dogukancandan/.gradle/caches/8.11.1/transforms/6743f7477eb7c3d6f5c951ceefbc6d54/transformed/jetified-activity-1.8.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.compose.material:material-android:1.5.0] /Users/dogukancandan/.gradle/caches/8.11.1/transforms/806e03b1c8aa70181d51173f86ad57a0/transformed/jetified-material-release/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.material:material-icons-extended-android:1.5.0] /Users/dogukancandan/.gradle/caches/8.11.1/transforms/c2f2cfc8e0d9e8775e3f7f770cc44f85/transformed/jetified-material-icons-extended-release/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.material:material-icons-core-android:1.5.0] /Users/dogukancandan/.gradle/caches/8.11.1/transforms/7a0bce65a0c1a83dcb7ff3571e1e8771/transformed/jetified-material-icons-core-release/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.material:material-ripple-android:1.5.0] /Users/dogukancandan/.gradle/caches/8.11.1/transforms/3c6109317d9554f8486f92c16cb30cce/transformed/jetified-material-ripple-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-icons-extended-android:1.5.4] /Users/dogukancandan/.gradle/caches/8.11.1/transforms/f79a1337201a09f75d88d454e4c5a965/transformed/jetified-material-icons-extended-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-ripple-android:1.5.4] /Users/dogukancandan/.gradle/caches/8.11.1/transforms/e69abc9fe502595ea8347ad4117b393c/transformed/jetified-material-ripple-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-icons-core-android:1.5.4] /Users/dogukancandan/.gradle/caches/8.11.1/transforms/566afd14d26b099033cf65a471b66819/transformed/jetified-material-icons-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-android:1.5.4] /Users/dogukancandan/.gradle/caches/8.11.1/transforms/228ae6e2ce98704f6751eab046826829/transformed/jetified-material-release/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.compose.animation:animation-core-android:1.5.4] /Users/dogukancandan/.gradle/caches/8.11.1/transforms/61e66986bf433cdcf3c62bf529bdd809/transformed/jetified-animation-core-release/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.compose.animation:animation-android:1.5.4] /Users/dogukancandan/.gradle/caches/8.11.1/transforms/a3bb27be085ce394d4ca360d0425534b/transformed/jetified-animation-release/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.compose.foundation:foundation-layout-android:1.5.4] /Users/dogukancandan/.gradle/caches/8.11.1/transforms/51b31217be5c918a66df525076862d58/transformed/jetified-foundation-layout-release/AndroidManifest.xml:2:1-7:12
@@ -102,9 +102,13 @@ uses-permission#android.permission.USE_EXACT_ALARM
 ADDED from /Users/dogukancandan/App Development/ReminderApp/app/src/main/AndroidManifest.xml:7:5-73
 	android:name
 		ADDED from /Users/dogukancandan/App Development/ReminderApp/app/src/main/AndroidManifest.xml:7:22-71
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /Users/dogukancandan/App Development/ReminderApp/app/src/main/AndroidManifest.xml:8:5-80
+	android:name
+		ADDED from /Users/dogukancandan/App Development/ReminderApp/app/src/main/AndroidManifest.xml:8:22-78
 application
-ADDED from /Users/dogukancandan/App Development/ReminderApp/app/src/main/AndroidManifest.xml:9:5-25:19
-INJECTED from /Users/dogukancandan/App Development/ReminderApp/app/src/main/AndroidManifest.xml:9:5-25:19
+ADDED from /Users/dogukancandan/App Development/ReminderApp/app/src/main/AndroidManifest.xml:10:5-33:19
+INJECTED from /Users/dogukancandan/App Development/ReminderApp/app/src/main/AndroidManifest.xml:10:5-33:19
 MERGED from [com.google.android.material:material:1.9.0] /Users/dogukancandan/.gradle/caches/8.11.1/transforms/b52c9c57c538e95645db492dec55fd5f/transformed/material-1.9.0/AndroidManifest.xml:24:5-20
 MERGED from [com.google.android.material:material:1.9.0] /Users/dogukancandan/.gradle/caches/8.11.1/transforms/b52c9c57c538e95645db492dec55fd5f/transformed/material-1.9.0/AndroidManifest.xml:24:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/dogukancandan/.gradle/caches/8.11.1/transforms/2d0ce44cd5813b244463bfec9c85614a/transformed/constraintlayout-2.0.1/AndroidManifest.xml:9:5-20
@@ -130,37 +134,51 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/dogukancandan/.gradl
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.10.1] /Users/dogukancandan/.gradle/caches/8.11.1/transforms/18d449e6e1b0f0ae1b58ae568a796cf1/transformed/core-1.10.1/AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from /Users/dogukancandan/App Development/ReminderApp/app/src/main/AndroidManifest.xml:13:9-35
+		ADDED from /Users/dogukancandan/App Development/ReminderApp/app/src/main/AndroidManifest.xml:14:9-35
 	android:label
-		ADDED from /Users/dogukancandan/App Development/ReminderApp/app/src/main/AndroidManifest.xml:12:9-36
+		ADDED from /Users/dogukancandan/App Development/ReminderApp/app/src/main/AndroidManifest.xml:13:9-36
 	android:icon
-		ADDED from /Users/dogukancandan/App Development/ReminderApp/app/src/main/AndroidManifest.xml:10:9-43
+		ADDED from /Users/dogukancandan/App Development/ReminderApp/app/src/main/AndroidManifest.xml:11:9-43
 	android:allowBackup
-		ADDED from /Users/dogukancandan/App Development/ReminderApp/app/src/main/AndroidManifest.xml:11:9-35
+		ADDED from /Users/dogukancandan/App Development/ReminderApp/app/src/main/AndroidManifest.xml:12:9-35
 	android:theme
-		ADDED from /Users/dogukancandan/App Development/ReminderApp/app/src/main/AndroidManifest.xml:14:9-49
+		ADDED from /Users/dogukancandan/App Development/ReminderApp/app/src/main/AndroidManifest.xml:15:9-49
 activity#com.dcapps.heyreminder.MainActivity
-ADDED from /Users/dogukancandan/App Development/ReminderApp/app/src/main/AndroidManifest.xml:15:9-23:20
+ADDED from /Users/dogukancandan/App Development/ReminderApp/app/src/main/AndroidManifest.xml:16:9-24:20
 	android:exported
-		ADDED from /Users/dogukancandan/App Development/ReminderApp/app/src/main/AndroidManifest.xml:17:13-36
+		ADDED from /Users/dogukancandan/App Development/ReminderApp/app/src/main/AndroidManifest.xml:18:13-36
 	android:theme
-		ADDED from /Users/dogukancandan/App Development/ReminderApp/app/src/main/AndroidManifest.xml:18:13-60
+		ADDED from /Users/dogukancandan/App Development/ReminderApp/app/src/main/AndroidManifest.xml:19:13-60
 	android:name
-		ADDED from /Users/dogukancandan/App Development/ReminderApp/app/src/main/AndroidManifest.xml:16:13-41
+		ADDED from /Users/dogukancandan/App Development/ReminderApp/app/src/main/AndroidManifest.xml:17:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/dogukancandan/App Development/ReminderApp/app/src/main/AndroidManifest.xml:19:13-22:29
+ADDED from /Users/dogukancandan/App Development/ReminderApp/app/src/main/AndroidManifest.xml:20:13-23:29
 action#android.intent.action.MAIN
-ADDED from /Users/dogukancandan/App Development/ReminderApp/app/src/main/AndroidManifest.xml:20:17-69
+ADDED from /Users/dogukancandan/App Development/ReminderApp/app/src/main/AndroidManifest.xml:21:17-69
 	android:name
-		ADDED from /Users/dogukancandan/App Development/ReminderApp/app/src/main/AndroidManifest.xml:20:25-66
+		ADDED from /Users/dogukancandan/App Development/ReminderApp/app/src/main/AndroidManifest.xml:21:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/dogukancandan/App Development/ReminderApp/app/src/main/AndroidManifest.xml:21:17-77
+ADDED from /Users/dogukancandan/App Development/ReminderApp/app/src/main/AndroidManifest.xml:22:17-77
 	android:name
-		ADDED from /Users/dogukancandan/App Development/ReminderApp/app/src/main/AndroidManifest.xml:21:27-74
+		ADDED from /Users/dogukancandan/App Development/ReminderApp/app/src/main/AndroidManifest.xml:22:27-74
 receiver#com.dcapps.heyreminder.data.ReminderReceiver
-ADDED from /Users/dogukancandan/App Development/ReminderApp/app/src/main/AndroidManifest.xml:24:9-59
+ADDED from /Users/dogukancandan/App Development/ReminderApp/app/src/main/AndroidManifest.xml:25:9-59
 	android:name
-		ADDED from /Users/dogukancandan/App Development/ReminderApp/app/src/main/AndroidManifest.xml:24:19-56
+		ADDED from /Users/dogukancandan/App Development/ReminderApp/app/src/main/AndroidManifest.xml:25:19-56
+receiver#com.dcapps.heyreminder.ReminderBootReceiver
+ADDED from /Users/dogukancandan/App Development/ReminderApp/app/src/main/AndroidManifest.xml:26:9-32:20
+	android:enabled
+		ADDED from /Users/dogukancandan/App Development/ReminderApp/app/src/main/AndroidManifest.xml:28:19-41
+	android:exported
+		ADDED from /Users/dogukancandan/App Development/ReminderApp/app/src/main/AndroidManifest.xml:27:19-42
+	android:name
+		ADDED from /Users/dogukancandan/App Development/ReminderApp/app/src/main/AndroidManifest.xml:26:19-55
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED
+ADDED from /Users/dogukancandan/App Development/ReminderApp/app/src/main/AndroidManifest.xml:29:13-31:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from /Users/dogukancandan/App Development/ReminderApp/app/src/main/AndroidManifest.xml:30:17-79
+	android:name
+		ADDED from /Users/dogukancandan/App Development/ReminderApp/app/src/main/AndroidManifest.xml:30:25-76
 uses-sdk
 INJECTED from /Users/dogukancandan/App Development/ReminderApp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/dogukancandan/App Development/ReminderApp/app/src/main/AndroidManifest.xml
@@ -205,14 +223,14 @@ MERGED from [androidx.activity:activity-ktx:1.8.0] /Users/dogukancandan/.gradle/
 MERGED from [androidx.activity:activity-ktx:1.8.0] /Users/dogukancandan/.gradle/caches/8.11.1/transforms/5fbc218a89c14eb0af41f8a240009c5c/transformed/jetified-activity-ktx-1.8.0/AndroidManifest.xml:5:5-44
 MERGED from [androidx.activity:activity:1.8.0] /Users/dogukancandan/.gradle/caches/8.11.1/transforms/6743f7477eb7c3d6f5c951ceefbc6d54/transformed/jetified-activity-1.8.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.activity:activity:1.8.0] /Users/dogukancandan/.gradle/caches/8.11.1/transforms/6743f7477eb7c3d6f5c951ceefbc6d54/transformed/jetified-activity-1.8.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.material:material-android:1.5.0] /Users/dogukancandan/.gradle/caches/8.11.1/transforms/806e03b1c8aa70181d51173f86ad57a0/transformed/jetified-material-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.material:material-android:1.5.0] /Users/dogukancandan/.gradle/caches/8.11.1/transforms/806e03b1c8aa70181d51173f86ad57a0/transformed/jetified-material-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.material:material-icons-extended-android:1.5.0] /Users/dogukancandan/.gradle/caches/8.11.1/transforms/c2f2cfc8e0d9e8775e3f7f770cc44f85/transformed/jetified-material-icons-extended-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.material:material-icons-extended-android:1.5.0] /Users/dogukancandan/.gradle/caches/8.11.1/transforms/c2f2cfc8e0d9e8775e3f7f770cc44f85/transformed/jetified-material-icons-extended-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.material:material-icons-core-android:1.5.0] /Users/dogukancandan/.gradle/caches/8.11.1/transforms/7a0bce65a0c1a83dcb7ff3571e1e8771/transformed/jetified-material-icons-core-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.material:material-icons-core-android:1.5.0] /Users/dogukancandan/.gradle/caches/8.11.1/transforms/7a0bce65a0c1a83dcb7ff3571e1e8771/transformed/jetified-material-icons-core-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.material:material-ripple-android:1.5.0] /Users/dogukancandan/.gradle/caches/8.11.1/transforms/3c6109317d9554f8486f92c16cb30cce/transformed/jetified-material-ripple-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.material:material-ripple-android:1.5.0] /Users/dogukancandan/.gradle/caches/8.11.1/transforms/3c6109317d9554f8486f92c16cb30cce/transformed/jetified-material-ripple-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-extended-android:1.5.4] /Users/dogukancandan/.gradle/caches/8.11.1/transforms/f79a1337201a09f75d88d454e4c5a965/transformed/jetified-material-icons-extended-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-extended-android:1.5.4] /Users/dogukancandan/.gradle/caches/8.11.1/transforms/f79a1337201a09f75d88d454e4c5a965/transformed/jetified-material-icons-extended-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.5.4] /Users/dogukancandan/.gradle/caches/8.11.1/transforms/e69abc9fe502595ea8347ad4117b393c/transformed/jetified-material-ripple-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.5.4] /Users/dogukancandan/.gradle/caches/8.11.1/transforms/e69abc9fe502595ea8347ad4117b393c/transformed/jetified-material-ripple-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.5.4] /Users/dogukancandan/.gradle/caches/8.11.1/transforms/566afd14d26b099033cf65a471b66819/transformed/jetified-material-icons-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.5.4] /Users/dogukancandan/.gradle/caches/8.11.1/transforms/566afd14d26b099033cf65a471b66819/transformed/jetified-material-icons-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-android:1.5.4] /Users/dogukancandan/.gradle/caches/8.11.1/transforms/228ae6e2ce98704f6751eab046826829/transformed/jetified-material-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-android:1.5.4] /Users/dogukancandan/.gradle/caches/8.11.1/transforms/228ae6e2ce98704f6751eab046826829/transformed/jetified-material-release/AndroidManifest.xml:5:5-44
 MERGED from [androidx.compose.animation:animation-core-android:1.5.4] /Users/dogukancandan/.gradle/caches/8.11.1/transforms/61e66986bf433cdcf3c62bf529bdd809/transformed/jetified-animation-core-release/AndroidManifest.xml:5:5-44
 MERGED from [androidx.compose.animation:animation-core-android:1.5.4] /Users/dogukancandan/.gradle/caches/8.11.1/transforms/61e66986bf433cdcf3c62bf529bdd809/transformed/jetified-animation-core-release/AndroidManifest.xml:5:5-44
 MERGED from [androidx.compose.animation:animation-android:1.5.4] /Users/dogukancandan/.gradle/caches/8.11.1/transforms/a3bb27be085ce394d4ca360d0425534b/transformed/jetified-animation-release/AndroidManifest.xml:5:5-44
